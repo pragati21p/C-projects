@@ -71,7 +71,7 @@ int check(){
 	}
 	if(j==3 && set==1){
 		cout<<"player "<<player<<" is winner"<<endl;
-		exit 0;
+		exit(0);
 	}
 	
 	if(x==y){
@@ -84,7 +84,7 @@ int check(){
 		}
 		if(j==3 && set==1){
 			cout<<"player "<<player<<" is winner"<<endl;
-			exit 0;
+			exit(0);
 		}
 	}
 }
