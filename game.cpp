@@ -86,16 +86,18 @@ int check(){
 			cout<<"player "<<player<<" is winner"<<endl;
 			exit 0;
 		}
-	}	
+	}
 }
 
 int main(){
+	int count=0;
 	draw();
-	while(1){
+	while(count<9){
 		input();
 		draw();
 		check();
 		toggleplayer();
+		count++;
 	}
 	
 	return 0;
