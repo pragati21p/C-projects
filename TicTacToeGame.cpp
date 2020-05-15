@@ -100,5 +100,6 @@ int main(){
 		count++;
 	}
 	
+	if(count==9) cout<<"No One Wins";
 	return 0;
 }
