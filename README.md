@@ -1,4 +1,4 @@
-## CPP Projects
+# CPP Projects
 AI gaming problems solved and implemented in c++ language
 
 ### TicTacToe-Game
